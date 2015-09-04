@@ -1,4 +1,5 @@
 class windows_client {
+  include jboss
 
   jboss::ear { 'demo327':
     ensure => present,
